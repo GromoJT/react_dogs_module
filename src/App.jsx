@@ -2,13 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "./index.css";
+import Dog from "./Dog";
 
 const App = () => (
   <div className="container">
-    <div>Name: react_dogs_module</div>
-    <div>Framework: react</div>
-    <div>Language: JavaScript</div>
-    <div>CSS: Empty CSS</div>
+
+  <Dog />
+
+    
   </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));
